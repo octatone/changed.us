@@ -1,0 +1,344 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 12:12:22 Mar 7, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:23:43 Jul 27, 2013.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+p {
+  margin-bottom: 1em;
+}
+
+h1 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 14px;
+  line-height: 20px;
+  color: #256BA7;
+  font-weight: bold;
+}
+
+h4 a {color: #256BA7}
+
+.bumpup {font-size: 15px;}
+.bumpup h2 {font-size: 22px;}
+
+.highlight {background: #f2f2f2;}
+
+
+/* INDIVIDUAL ENTRIES
+----------------------------------------------- */
+.page_content {
+  padding: 20px 30px 40px 30px;
+}
+
+.page_content h1 {
+  color: #0E5C9E;
+  margin-bottom: .8em;
+}
+
+.page_content h2 {
+  padding-bottom: 5px;
+  font-size: .92em;
+  line-height: 1em;
+  text-transform: uppercase;
+  color: #363636;
+  font-weight: bold;
+}
+
+.page_content h3 {
+  font-size: 1.7em;
+  line-height: 1.1em;
+  color: #2575ad;
+}
+
+.page_content h4 {
+  font-size: 1.1em;
+  line-height: 1.2em;
+  color: #0d5d9b;
+  font-weight: bold;
+  letter-spacing: 0px;
+  text-transform: none;
+}
+
+.page_content h5 {
+  font-size: 1.125em;
+  line-height: 1.8em;
+}
+
+.page_content h6 {
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.page_content .photo{
+  margin: 20px 0px 20px 20px;
+}
+
+.page_content .dateline {
+  font-size: 14px;
+  font-family: Times, "Times New Roman";
+  font-style: italic;
+  margin-bottom: 8px;
+}
+
+
+/* MULTI-ENTRY MODULES
+----------------------------------------------- */
+/*
+Generic for both left and right modules
+*/
+
+.moduleHeader {height: 47px; position: relative;}
+
+.more {font-family: helvetica; text-transform: uppercase; font-weight: bold; font-size: 10px; text-align: right;}
+
+#column1 .moduleHeader {
+  background: url(/web/20130307121222/http://change.gov/page/-/wrapper/img/bg_module_top.jpg) repeat-x;
+}
+
+.moduleBanner {position: relative;}
+
+.moduleHeader h3 {
+  font-size: 12px;
+  line-height: 12px;
+  margin: 0;
+  position: absolute;
+  left: 30px;
+  top: 18px;
+  color: #8E0706; 
+  text-transform: uppercase; 
+  font-family: verlag, arial, helvetica, sans-serif;
+  letter-spacing: 2px;
+}
+
+.moduleHeader h3 a {
+  color: #8E0706;
+}
+
+.moduleHeader .rss {
+  position: absolute; 
+  right: 20px; 
+  top: 16px; 
+  height: 14px; 
+  width: 14px; 
+  display: block; 
+  background: url(/web/20130307121222/http://change.gov/page/-/wrapper/img/feed-icon-14.png) no-repeat; 
+  text-indent: -900em;
+  overflow: hidden;
+}
+
+.moduleHeader .rss:hover {background-position: 0 -14px;}
+
+
+/* delete the .spanish rule */
+.moduleTop .spanishLink, .moduleTop .spanish {position: absolute; right: 20px; top: 18px;}
+.moduleTop .spanishLink, .moduleTop .spanish {
+  font-size: 10px;
+  line-height: 12px;
+  margin: 0;
+  text-transform: uppercase; 
+  font-family: verlag, arial, helvetica, sans-serif;
+  letter-spacing: 1.5px;
+  color: #666;
+}
+
+
+/* 
+Left Column Generic Module Rules
+*/
+
+#column1 .moduleInner {
+  padding: 20px 30px 20px 30px;
+}
+
+#column1 .module h2 {
+  margin-bottom: .5em;
+}
+
+#column1 .module .entry {
+  margin-bottom: 15px;
+}
+
+/* 
+Left Column Specific
+*/
+#moduleNewsroom .entry {
+  margin: 15px 0;
+  padding-top: 15px;
+  border-top: 1px solid #ddd;
+}
+
+#moduleNewsroom .entry1 {
+  border-top: none;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+#moduleNewsroom .dateline {
+  font-size: 14px;
+  font-family: Times, "Times New Roman";
+  font-style: italic;
+  margin-bottom: 8px;
+}
+
+#moduleNewsroom .dateline a {
+  font-weight: bold;
+  color: #333;
+}
+
+.listing .entry {
+  margin: 15px 0;
+  padding-top: 15px;
+  border-top: 1px solid #ddd;
+}
+
+.listing .entry1 {
+  border-top: none;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.listing .dateline {
+  font-size: 14px;
+  font-family: Times, "Times New Roman";
+  font-style: italic;
+  margin-bottom: 8px;
+}
+
+
+
+/* 
+Right Column Generic Module Rules
+*/
+
+#column2 .module {
+  border-top: 1px solid #ccc;
+}
+
+#column2 .moduleInner {
+  padding: 20px 30px;
+  background: url(/web/20130307121222/http://change.gov/page/-/wrapper/img/bg_module_side_drop.png) no-repeat top;
+}
+
+
+/* 
+Right Column Specific Modules
+*/
+
+#moduleSideUpcomingEvents .entry {
+  margin: 15px 0;
+}
+
+#moduleSideUpcomingEvents .entry .dateline {
+  font-family: helvetica; 
+  font-size: 10px; 
+  line-height: 12px;
+  font-weight: bold;
+  text-transform: uppercase; 
+  margin-bottom: 0;
+}
+
+#moduleSideAgenda {}
+#moduleSideAgenda .moduleInner {padding-left: 0; padding-top: 0;}
+#moduleSideAgenda ol {margin-left: 30px; list-style-type: none;}
+#moduleSideAgenda li {position: relative; margin-bottom: 10px; }
+#moduleSideAgenda .agendaVisual {display: none;}
+#moduleSideAgenda li.agendaOn {height: 130px; padding-right: 140px; padding-left: 30px; padding-top: 20px; margin-right: -30px; margin-left: -28px; border-bottom: 2px solid #ddd; border-right: 2px solid #ddd;}
+#moduleSideAgenda li.agendaOn .agendaVisual {display: block; position: absolute; right: 20px;}
+
+#moduleSideAdministration {}
+#moduleSideAdministration .moduleInner { padding: 0;}
+#moduleSideAdministration .entry {height: 140px; padding-left: 165px; padding-top: 10px; padding-right: 20px;}
+
+/* SEARCH
+----------------------------------------------- */
+
+#search_form {text-align: center; margin: 0 0 20px 0;}
+#search_form input#keywords {width: 450px; margin-right: 5px;}
+
+/* COMMENTS
+----------------------------------------------- */
+#comments {margin: 30px 0;}
+
+.comment {font-size: 1em; margin: 0 10px 30px 10px; padding: 5px;}
+.commentOdd {}
+.commentEven {}
+.commentNumber {display: none; border-bottom: 1px solid #999; padding: 3px; color: #EE2E24; text-align: right; margin-bottom: 0;}
+.commentNumber a {text-decoration: none;}
+.commentNumber a:hover {text-decoration: underline;}
+
+.commentInfo {border-top: 1px solid #999; padding: 3px; color: #666; margin-top: 0; font-size: 12px; font-style: italic;}
+.commentText {margin-left: 3px; margin-right: 3px; font-size: 12px; line-height: 1.3em;}
+.commentText p {margin: 6px 0;}
+
+#commentPost {border-top: 1px solid #999; padding-top: 30px;}
+#commentPost td {padding: 0; margin: 0;}
+#commentPost form p {margin: 1px 0; padding: 3px 0;}
+#commentPost form em {}
+#commentPost form label {display: block; width: 90px; float: left; text-align: right; padding-right: 10px; padding-top: 1px;}
+#commentPost form input.text {width: 420px;}
+#commentPost form textarea {width: 420px;}
+
+/* FORM ATTRIBUTES
+----------------------------------------------- */
+
+input, textarea, select {vertical-align: middle; font-family: helvetica, arial, sans-serif;}
+input.text, textarea, select {font-size: 11px; background: #fff; color: #3D372D; padding: 4px; letter-spacing: .5px;}
+select {padding: 2px;}
+
+input.submit {background: #fff; padding: 3px 8px; color: #8F9599; font-weight: normal; border: 1px solid #8F9599; text-align: center; text-transform: uppercase; letter-spacing: 1px;}
+input.submit:hover {background: #fff; cursor: pointer; color: #666; border-color: #666;}
+
+input.buttonImage {cursor: pointer; border: none; vertical-align: middle; padding: 0;}
+
+select {font-size: 12px; background: #fff; text-align: left;}
+
+/*
+signup
+*/
+#bodyBSD #signup {width: 400px; margin-left: 0px;}
+
+#bodyBSD #signup td {padding-top: 4px;}
+#bodyBSD #signup label {font-weight: normal;}
+#bodyBSD #signup .input_email {width: 377px;}
+#bodyBSD #signup .input_firstname {width: 178px;}
+#bodyBSD #signup .input_lastname {width: 178px;}
+#bodyBSD #signup .input_addr1 {width: 377px;}
+#bodyBSD #signup .input_addr2 {width: 377px;}
+#bodyBSD #signup .input_city {width: 178px;}
+#bodyBSD #signup .select_state_cd {width: 90px; margin-left: 5px; margin-right: 5px;}
+#bodyBSD #signup .input_zip {width: 85px; margin-right: 8px;}
+#bodyBSD #signup .select_country {width: 186px; margin-right: 5px;}
+#bodyBSD #signup .input_phone {width: 178px; margin-right: 8px;}
+#bodyBSD #signup input.submit {margin-top: 10px;}
+#bodyBSD #signup input.checkbox {margin-right: 4px; vertical-align: middle;}
+#bodyBSD #signup input.radiobutton {margin-right: 4px; vertical-align: middle;}
+#bodyBSD #signup textarea {width: 377px;}
+
+#bodyBSD #signup .error {line-height: 1em;}
+
+
+.contentInsetNav {
+    float: right;
+    background-color: #dddddd;
+    border: 1px solid #cccccc;
+    padding: 10px;
+    width: 160px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}

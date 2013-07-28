@@ -1,0 +1,142 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 22:55:16 May 9, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:23:43 Jul 27, 2013.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+#moduleBlog .dateline, #moduleNewsroom .headlines{
+	text-transform: uppercase; 
+	margin-bottom: 0;
+	font: bold 10px/12px helvetica, sans-serif;
+	color: #333;
+}
+
+#moduleBlog .entry {
+  margin: 15px 0;
+  padding-top: 15px;
+  border-top: 1px solid #ddd;
+}
+
+#moduleBlog .entry1 { border-top: none; padding-top: 0; margin-top: 0; }
+
+#moduleBlog .dateline {
+  font-size: 12px;
+  line-height: 14px;
+  font-family: Times, "Times New Roman";
+  font-style: italic;
+  margin-bottom: 0px;
+}
+
+#moduleBlog .dateline a {
+  font-weight: bold;
+  color: #333;
+}
+
+#moduleBlog .dateline {
+  font-size: 14px;
+  font-family: Times, "Times New Roman";
+  font-style: italic;
+  margin-bottom: 8px;
+}
+
+#moduleBlog .dateline a {
+  font-weight: bold;
+  color: #333;
+}
+
+#moduleEvents .more {
+	text-align: left;
+	display: block;
+	margin-top: 5px;
+}
+
+#moduleEvents #calendar-placeholder {
+	display: block;
+	height: 175px;
+	width: 225px;
+	background-color: #2575ad;
+	color: #fff;
+	text-align: center;
+	font-family: Helvetica ;
+}
+
+#moduleNewsroom .l { width: 265px;}
+.newsroom #moduleNewsroom .dateline { margin-bottom: 5px; } /**!!!Remove .newsroom when copied to main file !!!**/
+#moduleNewsroom h2 {
+	font-size: 19px;
+	line-height: 1.2em;
+	font-weight: bold;
+}
+
+#moduleNewsroom p { font-size: 14px; line-height: 1.3em; }
+
+#moduleNewsroom .r .more-info {
+	display: block;
+	margin-top: 5px;
+	font-size: 12px;
+	line-height: 1em;
+	color: #666;
+}
+#moduleNewsroom .r .more-info a { color: #666;}
+
+#moduleNewsroom #small-headlines .entry { border: none; padding: 0; margin: 8px 0 15px 0;}
+#moduleNewsroom #small-headlines .dateline { font-size: 12px; line-height: 14px; margin-bottom: 2px; }
+#moduleNewsroom #small-headlines h4 { line-height: 1.1em; }
+
+#modulePressRoom ul {
+	margin-left: 20px;
+	font-family: helvetica; text-transform: uppercase; font-weight: bold; font-size: 10px; 
+}
+
+#moduleBlog h2, #modulePressRoom h2 {
+	font-size: 20px;
+	line-height: 1.2em;
+	font-weight: bold;
+}
+
+#moduleEvents .dateline, #moduleNewsroom .headlines{
+	text-transform: uppercase; 
+	margin-bottom: 0;
+	font: bold 10px/12px helvetica, sans-serif;
+	color: #333;
+}
+
+.newsroom #moduleBlog .dateline, .newsroom #moduleNewsroom .dateline, .newsroom #modulePressRoom .dateline {
+	margin-bottom: 5px;
+	font: italic 12px/14px Times, "Times New Roman", sans-serif;
+	text-transform: none;
+}
+
+
+#moduleBlog .dateline a { font-weight: bold; color: #333; }
+#moduleNewsroom .more, #moduleBlog .more, #modulePressRoom .more { float: right; }
+
+.footer-nav {
+	background-color: #0b1b33;
+	border-top: 5px solid #830706;
+	text-transform: uppercase;
+	padding: 10px 0;
+	font: 10px/15px Times, "Times New Roman", serif;
+}
+.footer-nav ul { float: left; text-align: left; padding-left: 25px;}
+.footer-nav ul li { display: block; color: #8ca7cf; font-weight: bold; padding: 0; margin: 0;}
+.footer-nav ul li header {border-bottom}
+.footer-nav ul li ul {margin: 0; padding: 0;}
+.footer-nav ul li ul li { font-weight: normal; padding: 1px 0; color: #6084b9; line-height: 13px;}
+.footer-nav ul li ul li a { color: #6084b9;}
+.footer-nav ul li ul li a:hover { background-color: none;}
+.footer_header{ background: transparent url(./agenda_border.jpg) repeat-x scroll 0pt 0pt;  background-position: bottom;}
+#newsroom-footer-nav { width: 120px;}
+#learn-footer-nav { width: 155px;}
+#agenda-footer-nav { width: 435px; }
+#agenda-footer-nav ul { float: left; width: 135px; }
+#column5-footer-nav { width: 130px; }
+#column6-footer-nav { width: 150px; }
+#americanmoment-footer-nav, #americaserves-footer-nav, #news-footer-nav { height: 40px;}
