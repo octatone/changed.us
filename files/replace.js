@@ -95,17 +95,21 @@ function start () {
   _replaceNext();
 }
 
+var links = [
+  'https://www.eff.org/nsa-spying',
+  'http://www.aclu.org/national-security/surveillance-privacy',
+  'http://www.restorethefourth.net/'
+];
+
+function godSpeedYou () {
+
+  window.location.href = links[Math.floor(Math.random() * links.length)];
+}
+
 $(function () {
 
   // start the magic
   window.setTimeout(start, 2000);
-
-  // convert all # links to a random location change
-  var links = [
-    'https://www.eff.org/nsa-spying',
-    'http://www.aclu.org/national-security/surveillance-privacy',
-    'http://www.restorethefourth.net/'
-  ];
 
   $('a').on('click', function (e) {
 
@@ -113,8 +117,14 @@ $(function () {
     if ($el.attr('href') === '#') {
 
       e.preventDefault();
-      window.location.href = links[Math.floor(Math.random() * links.length)];
+      godSpeedYou();
     }
+  });
+
+  $('form').on('submit', function (e) {
+
+    e.preventDefault();
+    godSpeedYou();
   });
 
 });
